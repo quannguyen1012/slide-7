@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>script tag Exemple 04</title>
+</head>
+<style>
+    div {
+        display: inline-block;
+    }
+</style>
+<body>
+<form>
+    <div >
+    <label>Amount</label></br>
+    <input type="number" id="amount">
+    </div> &nbsp;
+
+    <div>
+    <label>Form Currency</label></br>
+    <select id="formCurrency">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    </div>
+
+    <div>
+    <label>To Currency</label></br>
+    <select id="toCurrency">
+        <option value="VND">VND</option>
+        <option value="USD">USD</option>
+    </select>
+    </div>
+    &nbsp;&nbsp;&nbsp;
+    <div>
+        <button type="button" onclick="showMessage()";>Convert</button>
+    </div>
+</form>
+    <h3>Result:</h3>
+    <p id="display"></p>
+
+    <script src="bai-7-script.js"></script>
+
+</body>
+</html>
